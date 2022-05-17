@@ -1,0 +1,258 @@
+/* Nav Style */
+/*
+img{
+    display: block;
+    width: 100%;
+} */
+
+/* .horizontal>ul>li{
+    display: block;
+    float: left;
+    width: 16.66%;
+} */
+
+/* .horizontal>ul>li>a{
+    display: block;
+} */
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar a {
+
+    font-family: Champagne, cursive;
+    /* font-size: 1.4em;
+    line-height: 1.8em;
+    text-align: center; */
+    padding: 5px;
+}
+
+.navbar a:link,
+.navbar a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a:active {
+    color: rgb(184, 166, 145);
+}
+
+.navbar {
+
+
+
+    border-bottom: 2px solid rgb(114, 110, 110);
+    /* box-shadow: 0 20px 20px -20px rgb(85, 85, 85); */
+
+
+}
+
+.navbar-item>ul>li {
+    padding: 120px;
+    margin: 60px;
+}
+
+
+
+/* content */
+
+
+
+p {
+    font-family: Champagne, cursive;
+
+    text-align: center;
+}
+
+
+h1 {
+    font-family: Champagne, cursive;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+li {
+    padding: 40px;
+}
+
+/* .splash{
+    position: absolute;
+    bottom: 240px;
+    left: 420px;
+    flex-direction: column;
+}
+.splashTwo
+{
+      position: absolute;
+      bottom: 270px;
+      left: 500px;
+      flex-direction: column;
+} */
+/* .bluesplash{
+    position: absolute;
+      top: 700px;
+      right: 420px;
+}
+.bluesplashTwo
+{
+      position: absolute;
+      top: 780px;
+      right: 500px;
+}
+.splashmix{
+    position: absolute;
+    bottom: -470px;
+    left: 420px;
+}
+.splashmixTwo
+{
+      position: absolute;
+      bottom: -410px;
+      left: 470px;
+} */
+
+
+.Tex {
+    font-family: Champagne, cursive;
+    font-size: 1.4em;
+
+    text-align: center;
+    padding: 150px;
+
+}
+
+/* body > section#stickerLi > aside {
+	float: right;
+	width: 20%;
+    background-color: rgb(146, 100, 40);
+    
+} */
+
+
+/* Image style */
+/* #banner{
+    overflow: hidden; 
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.image{
+    border: solid black 2px;
+    display: block;
+    max-width: 20px;
+    max-height: 50px;
+}
+.slide{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border:solid 10px rgb(0, 0, 0);
+
+} */
+
+/* footer */
+.footer {
+    background-color: rgba(122, 161, 219, 0.37);
+    border-top: 2px solid rgb(114, 110, 110);
+    padding: 10px;
+}
+
+
+
+.footer>a {
+    color: bisque;
+    font-size: 50px;
+    padding-top: 2px;
+}
+
+.footer>a:visited {
+    font-size: 50px;
+}
+
+
+
+
+/* About Me stlye */
+.aboutMe>p {
+    font-family: Champagne, cursive;
+    text-align: center;
+}
+
+.aboutMe>h1 {
+    text-align: center;
+    border: dashed;
+
+
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+#shop>a {
+
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.blob {
+
+
+
+    transform: scale(1);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+
+    }
+
+    70% {
+        transform: scale(1);
+
+    }
+
+    100% {
+        transform: scale(0.95);
+
+    }
+}
+
+.form-center {
+    display: flex;
+    justify-content: center;
+}
+
+#subButton {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Champagne, cursive;
+    font-size: 1.4em;
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#subButton:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
