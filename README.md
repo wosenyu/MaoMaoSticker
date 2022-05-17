@@ -1,4 +1,4 @@
-# wosenyu.github.io
+# wosenyu
 
 
 Link to Website - https://wosenyu.github.io/MaoMaoSticker/
